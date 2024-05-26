@@ -6,7 +6,7 @@ import Page from './page';
  */
 class SecurePage extends Page {
     /**
-     * define selectors using getter methods
+     * define selectors using getter method
      */
     public get flashAlert () {
         return $('#flash');
